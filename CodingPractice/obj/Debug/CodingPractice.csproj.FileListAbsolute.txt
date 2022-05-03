@@ -1,0 +1,6 @@
+C:\Users\abouadla\Downloads\PRV\proj\CodingPractice\CodingPractice\bin\Debug\CodingPractice.exe.config
+C:\Users\abouadla\Downloads\PRV\proj\CodingPractice\CodingPractice\bin\Debug\CodingPractice.exe
+C:\Users\abouadla\Downloads\PRV\proj\CodingPractice\CodingPractice\bin\Debug\CodingPractice.pdb
+C:\Users\abouadla\Downloads\PRV\proj\CodingPractice\CodingPractice\obj\Debug\CodingPractice.csprojResolveAssemblyReference.cache
+C:\Users\abouadla\Downloads\PRV\proj\CodingPractice\CodingPractice\obj\Debug\CodingPractice.exe
+C:\Users\abouadla\Downloads\PRV\proj\CodingPractice\CodingPractice\obj\Debug\CodingPractice.pdb
