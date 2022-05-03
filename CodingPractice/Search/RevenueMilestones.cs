@@ -11,23 +11,36 @@ namespace CodingPractice.Search
     {
         public static void Test()
         {
-            Debug.WriteLine("############# TEST 1 ######################");
+            Console.WriteLine("############# TEST 1 ######################");
             int[] revenues_1 = { 100, 200, 300, 400, 500 };
             int[] milestones_1 = { 300, 800, 1000, 1400 };
-            //int[] expected_1 = {2, 4, 4, 5};
-            int[] output_1 = getMilestoneDays(revenues_1, milestones_1);
+            int[] expected_1 = {2, 4, 4, 5};
+            int[] output_1 = getMilestoneDays(revenues_1, milestones_1);           
 
+            Console.Write("Expected: ");
+            foreach (int exp in expected_1)
+                Console.Write(exp + " ");
+            Console.WriteLine("");
+            Console.Write(" Results: ");
             foreach (int output in output_1)
-                Debug.WriteLine(output);
+                Console.Write(output + " ");
+            Console.WriteLine("");
+            
 
-            Debug.WriteLine("############# TEST 2 ######################");
+            Console.WriteLine("############# TEST 2 ######################");
             int[] revenues_2 = { 700, 800, 600, 400, 600, 700 };
             int[] milestones_2 = { 3100, 2200, 800, 2100, 1000 };
-            //int[] expected_1 = {5, 4, 2, 3, 2};
+            int[] expected_2 = {5, 4, 2, 3, 2};
             int[] output_2 = getMilestoneDays(revenues_2, milestones_2);
 
+            Console.Write("Expected: ");
+            foreach (int exp in expected_2)
+                Console.Write(exp + " ");
+            Console.WriteLine("");
+            Console.Write(" Results: ");
             foreach (int output in output_2)
-                Debug.WriteLine(output);
+                Console.Write(output + " ");
+            Console.WriteLine("");
         }
 
         private static int[] getMilestoneDays(int[] revenues, int[] milestones)
