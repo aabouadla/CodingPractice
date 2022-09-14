@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CodingPractice.Graph;
 
 namespace CodingPractice
 {
@@ -11,7 +12,9 @@ namespace CodingPractice
     {
         static void Main(string[] args)
         {
-            RevenueMilestones.Test();
+            //RevenueMilestones.Test();
+            //RotationalCipher.Test();
+            BTSGraph.Test();
         }
     }
 }

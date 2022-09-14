@@ -41,9 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Graph\BTSGraph.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Search\RevenueMilestones.cs" />
+    <Compile Include="Search\RotationalCipher.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
