@@ -41,6 +41,8 @@ namespace CodingPractice.Search
             foreach (int output in output_2)
                 Console.Write(output + " ");
             Console.WriteLine("");
+
+            Console.Read();            
         }
 
         private static int[] getMilestoneDays(int[] revenues, int[] milestones)
