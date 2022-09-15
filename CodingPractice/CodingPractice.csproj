@@ -41,11 +41,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AmazonTest.cs" />
+    <Compile Include="Graph\BFS.cs" />
     <Compile Include="Graph\BTSGraph.cs" />
+    <Compile Include="Graph\Dijkstra.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Search\RevenueMilestones.cs" />
     <Compile Include="Search\RotationalCipher.cs" />
+    <Compile Include="Tree\HBT.cs" />
+    <Compile Include="Tree\BTNode.cs" />
+    <Compile Include="Tree\LevelOrder.cs" />
+    <Compile Include="Tree\PrintLeaf.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

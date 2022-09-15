@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CodingPractice.Graph;
+using CodingPractice.Tree;
 
 namespace CodingPractice
 {
@@ -14,7 +15,12 @@ namespace CodingPractice
         {
             //RevenueMilestones.Test();
             //RotationalCipher.Test();
-            BTSGraph.Test();
+            //BTSGraph.Test();
+            //BFS.Test();
+            //Dijkstra.Test();
+            //HBT.Test();
+            //LevelOrder.Test();
+            AmazonTest.Test();
         }
     }
 }
